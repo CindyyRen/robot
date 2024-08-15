@@ -23,16 +23,19 @@
   width: 80%;
 } */
 .play_button {
+  color: var(--btn-yellow-light);
   border-style: none;
   font-size: 2rem;
   display: flex;
   gap: 10px;
+  margin-top: 20px;
   align-items: center;
   background-color: transparent;
   cursor: pointer;
 }
 .play_button:hover {
   font-size: 2.1rem;
+  color: var(--btn-yellow-dark);
 }
 .description {
   display: flex;
