@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Description } from '../description/Description';
 
 const RobotController = () => {
   return (
-    <div>RobotController</div>
-  )
-}
+    <>
+      <Description />
+    </>
+  );
+};
 
-export default RobotController
+export default RobotController;
