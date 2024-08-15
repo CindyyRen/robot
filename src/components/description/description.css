@@ -1,4 +1,4 @@
-
 .header {
   background-color: var(--clr-grey-light);
+  min-width: 36rem;
 }

@@ -111,7 +111,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .flexcontainer {
-    width: 95vw;
+    width: 90vw;
     flex-direction: row;
   }
 }
@@ -145,8 +145,8 @@ label {
 
 /* TableTopContainer */
 .tableTop_container {
-  /* width:30%; */
-  width: 95vw;
+  /* width:30%;
+  width: 95vw; */
   min-width: 360px;
   background-color: var(--clr-grey-dark);
   padding: 2px;
@@ -170,7 +170,7 @@ label {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 
 @media screen and (min-width: 360px) {
