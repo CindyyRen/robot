@@ -1,0 +1,43 @@
+/* 将整个容器水平居中 */
+.home-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vw;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 80vh; /* 让容器高度占满整个视口 */
+  text-align: center; /* 使文本居中 */
+  gap: 20px;
+}
+.robot {
+  margin-bottom: 20px;
+}
+
+.header-btn:hover {
+  text-decoration: underline; /* 悬停时的样式 */
+}
+/* .home-content p{
+  font-size: 1.5rem;
+  font-family: var(--secondary-font);
+  margin-bottom: 30px;
+  width: 80%;
+} */
+.play_button {
+  border-style: none;
+  font-size: 2rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.play_button:hover {
+  font-size: 2.1rem;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
