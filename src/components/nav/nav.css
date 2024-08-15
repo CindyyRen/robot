@@ -32,6 +32,22 @@ nav a {
 nav a:hover {
   background-color: #555;
 }
+/* styles.css */
+.link-style {
+  display: inline-block;
+  text-decoration: none;
+  background: none;
+}
+
+.link-style img {
+  border: none;
+  display: block;
+}
+
+/* styles.css */
+.link-style:hover {
+  background: none;
+}
 
 @media screen and (max-width: 600px) {
   /* nav ul {

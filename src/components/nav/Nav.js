@@ -6,7 +6,7 @@ import bellroy from '../../assets/bellroy-white.png'
 const Nav = () => {
   return (
     <nav className="nav">
-      <Link to="/" className="logo">
+      <Link to="/" className="link-style">
         <img src={bellroy} alt="robot" width="60px" height="29px" />
       </Link>
       <ul>
