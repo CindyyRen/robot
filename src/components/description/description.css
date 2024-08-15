@@ -1,12 +1,4 @@
-.section {
-  padding: 2rem 0;
-}
 
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
 .header {
   background-color: var(--clr-grey-light);
 }

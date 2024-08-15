@@ -16,12 +16,7 @@
 .header-btn:hover {
   text-decoration: underline; /* 悬停时的样式 */
 }
-/* .home-content p{
-  font-size: 1.5rem;
-  font-family: var(--secondary-font);
-  margin-bottom: 30px;
-  width: 80%;
-} */
+
 .play_button {
   color: var(--btn-yellow-light);
   border-style: none;

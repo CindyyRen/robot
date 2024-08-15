@@ -5,7 +5,7 @@ import './description.css';
 
 export const Description = () => {
   return (
-    <div className="section header command">
+    <div className="section header">
       <div className="section-center">
         {/* List the control commands */}
         <div>
